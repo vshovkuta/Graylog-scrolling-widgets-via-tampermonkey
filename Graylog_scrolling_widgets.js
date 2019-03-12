@@ -16,13 +16,13 @@ if (+getCookie("ROTATION_TIME")) {
 	ROTATION_TIME = +getCookie("ROTATION_TIME");
 } else {
 	//Если не найдено, присваиваем значение по умолчанию
-	ROTATION_TIME = 60;
+	ROTATION_TIME = 60; //sec
 	document.cookie = "ROTATION_TIME=" + ROTATION_TIME;
 }
 
  //Время прокрутки одного виджета по умолчанию
  //Влияет только на первую итерацию, в дальнейшем расчитывается как ROTATION_TIME (общее время ротации одного дашборда) / elem_list (количество виджетов)
-var SCROLL_TIME = 15;
+var SCROLL_TIME = 15; //sec
 
 var elem_list;
 var elem_list_title;
