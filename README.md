@@ -13,3 +13,6 @@ Enter your Graylog server URL here.
 
 		ROTATION_TIME = 60; //sec
 Replace the value "60" with the value you want.
+
+# Additionally
+Also you can use this userscript with [Graylog-dashboards-rotator-via-tampermonkey](https://github.com/vshovkuta/Graylog-dashboards-rotator-via-tampermonkey) together. In this case, you should enter the same "ROTATION_TIME" value. 
